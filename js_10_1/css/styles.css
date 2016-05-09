@@ -1,0 +1,113 @@
+ищ
+.wrapper{
+	margin: 10px auto;
+	border: 1px solid grey;
+	border-radius: 5px 5px;
+	width: 700px;
+	font-family: Tahoma;
+	font-size: 14px;
+}
+
+/*Tabs*/
+.tabs {
+	margin-top: 10px;
+	overflow: hidden;
+	padding-top: 7px;
+	border-radius: 5px 5px;
+	margin-left: 15px;
+	width: 670px;
+	line-height: 30px;
+	background: linear-gradient(to top, #cccccc, #e1e1e1); 
+}
+
+.tabs__name {
+	display: inline;
+	list-style: none;
+	margin-left: 7px;
+	padding: 6px 10px 7px 10px;
+	border: 1px solid #d3d3d3;
+	border-radius: 5px 5px 0 0;
+	background: #eeeeee;
+}
+
+.tabs__txt {
+	margin: 20px 30px;
+	line-height: 18px;
+}
+
+.tabs__name:hover{
+	background: white;
+	border: 1px solid #88d2e7;
+	box-shadow:  2px 1px 12px 0px rgba(136, 210, 231, 0.7);
+	border-bottom: none;
+}
+
+.tabs__name.active,
+.tabs__name.active:hover{
+	background: white;
+	border: 1px solid #88d2e7;
+	box-shadow:  2px 1px 12px 0px rgba(136, 210, 231, 0.7);
+	border-bottom: 5px solid white;;
+}
+
+/*Tooltips*/
+form{
+	/*margin: 10px 0;*/
+	border: 1px solid #d3d3d3;
+	padding: 15px 15px;
+	position: relative;
+	box-shadow:  2px 1px 12px 0px rgba(170, 170, 170, 0.5);
+}
+
+ul{
+	list-style: none;
+}
+
+.tooltip {
+	padding-top: 10px;
+	list-style: none;
+	padding-left: 30px;
+	padding-top: 10px;
+	margin-top: 5px;
+}
+
+.tooltip input, .tooltip label{
+	font-size: 14px;
+	text-align: left;
+}
+
+label{
+	display: inline-block; 
+	width: 70px;
+}
+
+.tooltip input{
+	width: 200px;
+	height: 18px;
+	margin-bottom: 10px;
+	margin-right: 7px;
+}
+
+.tooltip span {
+	border: 1px solid #88d2e7;
+	box-shadow:  2px 1px 12px 0px rgba(136, 210, 231, 0.7);
+	position: absolute;
+	margin-left: 50px;
+	opacity: 0;
+	transition: 1s;
+	text-align: center;
+	padding: 2px 2px;
+	font-size: 12px;
+}
+
+button {
+	margin-top: 20px;
+	width: 80px;
+	height: 30px;
+}
+
+button:hover{
+	border: 1px solid #88d2e7;
+	box-shadow:  2px 1px 12px 0px rgba(136, 210, 231, 0.7);
+	background: #aaaaaa;
+}
